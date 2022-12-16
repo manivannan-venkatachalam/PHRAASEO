@@ -202,27 +202,42 @@ div h1 span {
   .footer div:first-child {
     flex-direction: column;
   }
-  
-  .footer div {
+
+  .footer div,.footer-head{
     width: 100%;
-  }
-  .address {
-    padding-left: 0;
-  }
-  .social img {
-    margin-right: 0;
-    float: left;
-  }
-  .social div {
-    flex-direction:column;
-    align-items: flex-start;
-    width: 100% !important;
-  }
-  .social p {
-    display: inline-block;
   }
   .footer div div h3 {
     padding: 0;
     border:0;
+    font-size: 1.5rem;
+    width: 100% !important;
   }
+  .address {
+    padding-left: 0;
+  }
+  .address span{
+    display: block;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+  }
+  .social div {
+    align-items: flex-start;
+    width: 100% !important;
+  }
+  .social div:first-child {
+    margin:0;
+  }
+  .social div:nth-child(2){
+    margin: 0;
+  }
+  .social div img {
+    width: 4.22vw;
+    margin-right: 0;
+
+  }
+  .social div p {
+    display: inline-block;
+    font-size: 1rem;
+  }
+
 }
